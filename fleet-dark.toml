@@ -1,0 +1,79 @@
+[meta]
+version = 1
+name = "Fleet Dark"
+description = "Fleet's sleek dark aesthetic, ported from the Fleet Themes for Zed"
+variant = "dark"
+inherits = "vicinae-dark"
+
+[colors.core]
+accent = "#2A7DEB"
+accent_foreground = "#FFFFFF"
+background = "#18191B"
+foreground = "#E0E1E4"
+secondary_background = "#252629"
+border = "#3E4147"
+
+[colors.main_window]
+border = "#3E4147"
+footer = { background = "colors.core.secondary_background" }
+
+[colors.settings_window]
+border = "#3E4147"
+
+[colors.accents]
+blue = "#4B8DEC"
+green = "#009E6F"
+magenta = "#EB83E2"
+orange = "#E09119"
+red = "#EB4056"
+yellow = "#FAD075"
+cyan = "#2CCCE6"
+purple = "#AF9CFF"
+
+[colors.shortcut]
+border = "colors.core.border"
+
+[colors.text]
+default = "colors.core.foreground"
+muted = "#898E94"
+danger = "#E1465E"
+success = "#169068"
+placeholder = "#898E94"
+selection = { background = "#225090", foreground = "#E0E1E4" }
+
+[colors.text.links]
+default = "#4B8DEC"
+visited = "#AF9CFF"
+
+[colors.input]
+border = "#3E4147"
+border_focus = "#2A7DEB"
+border_error = "#E1465E"
+
+[colors.button.primary]
+background = "#252629"
+foreground = "#E0E1E4"
+hover = { background = "#323438" }
+focus = { outline = "colors.core.accent" }
+
+[colors.list.item.hover]
+foreground = "#E0E1E4"
+secondary_foreground = "#E0E1E4"
+
+[colors.list.item.selection]
+background = "#143A66"
+foreground = "#E0E1E4"
+secondary_background = "#143A66"
+secondary_foreground = "#AEB6BF"
+
+[colors.grid.item]
+background = "#252629"
+hover = { outline = "#E0E1E4" }
+selection = { outline = "#E0E1E4" }
+
+[colors.scrollbars]
+background = "#3E4147"
+
+[colors.loading]
+bar = "#2A7DEB"
+spinner = "#E0E1E4"
